@@ -21,18 +21,30 @@ curl https://api.ratelimited.dev/ip/<requests-per-second>
 
 The specific endpoints available (for now) are:
 
-- https://api.ratelimited.dev/ip/1
-- https://api.ratelimited.dev/ip/2
-- https://api.ratelimited.dev/ip/5
-- https://api.ratelimited.dev/ip/10
-- https://api.ratelimited.dev/ip/20
-- https://api.ratelimited.dev/ip/50
-- https://api.ratelimited.dev/ip/100
-- https://api.ratelimited.dev/ip/200
-- https://api.ratelimited.dev/ip/500
-- https://api.ratelimited.dev/ip/1000
-- https://api.ratelimited.dev/ip/2000
-- https://api.ratelimited.dev/ip/5000
+- https://api.ratelimited.dev/ip/1-per-second
+- https://api.ratelimited.dev/ip/2-per-second
+- https://api.ratelimited.dev/ip/5-per-second
+- https://api.ratelimited.dev/ip/10-per-second
+- https://api.ratelimited.dev/ip/20-per-second
+- https://api.ratelimited.dev/ip/50-per-second
+- https://api.ratelimited.dev/ip/100-per-second
+- https://api.ratelimited.dev/ip/200-per-second
+- https://api.ratelimited.dev/ip/500-per-second
+- https://api.ratelimited.dev/ip/1000-per-second
+- https://api.ratelimited.dev/ip/2000-per-second
+- https://api.ratelimited.dev/ip/5000-per-second
+- https://api.ratelimited.dev/ip/1-per-minute
+- https://api.ratelimited.dev/ip/2-per-minute
+- https://api.ratelimited.dev/ip/5-per-minute
+- https://api.ratelimited.dev/ip/10-per-minute
+- https://api.ratelimited.dev/ip/20-per-minute
+- https://api.ratelimited.dev/ip/50-per-minute
+- https://api.ratelimited.dev/ip/100-per-minute
+- https://api.ratelimited.dev/ip/200-per-minute
+- https://api.ratelimited.dev/ip/500-per-minute
+- https://api.ratelimited.dev/ip/1000-per-minute
+- https://api.ratelimited.dev/ip/2000-per-minute
+- https://api.ratelimited.dev/ip/5000-per-minute
 
 ### By Key
 
@@ -46,18 +58,30 @@ curl -H "key: shared-across-instances" https://api.ratelimited.dev/key/<requests
 
 The endpoints are:
 
-- https://api.ratelimited.dev/key/1
-- https://api.ratelimited.dev/key/2
-- https://api.ratelimited.dev/key/5
-- https://api.ratelimited.dev/key/10
-- https://api.ratelimited.dev/key/20
-- https://api.ratelimited.dev/key/50
-- https://api.ratelimited.dev/key/100
-- https://api.ratelimited.dev/key/200
-- https://api.ratelimited.dev/key/500
-- https://api.ratelimited.dev/key/1000
-- https://api.ratelimited.dev/key/2000
-- https://api.ratelimited.dev/key/5000
+- https://api.ratelimited.dev/key/1-per-second
+- https://api.ratelimited.dev/key/2-per-second
+- https://api.ratelimited.dev/key/5-per-second
+- https://api.ratelimited.dev/key/10-per-second
+- https://api.ratelimited.dev/key/20-per-second
+- https://api.ratelimited.dev/key/50-per-second
+- https://api.ratelimited.dev/key/100-per-second
+- https://api.ratelimited.dev/key/200-per-second
+- https://api.ratelimited.dev/key/500-per-second
+- https://api.ratelimited.dev/key/1000-per-second
+- https://api.ratelimited.dev/key/2000-per-second
+- https://api.ratelimited.dev/key/5000-per-second
+- https://api.ratelimited.dev/key/1-per-minute
+- https://api.ratelimited.dev/key/2-per-minute
+- https://api.ratelimited.dev/key/5-per-minute
+- https://api.ratelimited.dev/key/10-per-minute
+- https://api.ratelimited.dev/key/20-per-minute
+- https://api.ratelimited.dev/key/50-per-minute
+- https://api.ratelimited.dev/key/100-per-minute
+- https://api.ratelimited.dev/key/200-per-minute
+- https://api.ratelimited.dev/key/500-per-minute
+- https://api.ratelimited.dev/key/1000-per-minute
+- https://api.ratelimited.dev/key/2000-per-minute
+- https://api.ratelimited.dev/key/5000-per-minute
 
 ## Additional Details
 
